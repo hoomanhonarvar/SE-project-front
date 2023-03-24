@@ -1,4 +1,4 @@
-# ES-Project
+# SE-project-fornt
 designing shoes online shop
 in this project we use django, Html, Css, js, ReAct technologies.
 methodology: scrum
