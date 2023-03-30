@@ -1,21 +1,23 @@
-.img{
-
-    width: '100%';
-}
-.in1[type=text] {
-    position: absolute;
-    height: 50px;
-    left: 700px;
-    right: 520px;
-    top: 639px;
-    width: '100%';
-    border : 1px solid #08A06E;
-    background-color: #08A06E;
+.forgetPassword:hover{
+    color: red;
     border: none;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 16px;
-    padding : 10px 100px;
-  }
+    background-color:#ffffff;
+}
+.forgetPassword{
+    border: none;
+    background-color: #ffffff;
+}
+.loginbtn{
+    background-color: #08A06E;
+
+}
+.card{
+    --bs-card-border-width: 3px;
+}
+.btn-lg{
+    --bs-btn-padding-x: 8rem;
+}
+.container0py-5h-100{
+    background-image: url(./images.jpg);
+
+}
