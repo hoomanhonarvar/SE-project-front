@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: yekan;
+  src: url(./BYekan+.ttf);
+}
+
+*{
+  font-family: yekan;
+  border: 0px;
+}
+body{
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+ .NAVBAR{
+  font-family: yekan;
+  width: 100%;
+  background-color: rgba(69, 79, 125, 1.8);
+ }
+
+ ul{
+list-style: none;
+color: #fff;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+ }
+
+ ul li{
+  float:right;
+  margin: 20px;
+ }
+#btn-1{
+  font-family: yekan;
+background-color: rgb(69, 79, 125);
+color:#fff;
+padding: 10px;
+border-radius: 50px;
+font-size: 22px;
+
+}
+.Product-box{
+display: inline-block;
+justify-content: space-between;
+padding: 20px;
+margin: auto;
+
+}
+
+.product-card{
+  float: right;
+  justify-content: stretch;
+  padding: 30px;
+display: inline-block;
+
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.productdetails{
+  justify-items: normal;
+  float: right;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+.shopping-button{
+width: 30px;
+height: 30px;
+background-color: #F07006;
+border-radius: 5px;
+display: inline-block;
+
+
+}
+.productimg{
+  background-color: #666;
+  border-radius: 55px;
+width: 200px;
+  height: 200px;
+padding: 20px;
+margin: 20px;
+
+}
+
+#NEW{
+  font-size: 28px;
+}
+#BEST{
+  font-size: 28px;
+}
+
+
+.FOOTER{
+  background: rgba(14, 18, 37, 0.8);
+  mix-blend-mode: normal;
+  height: 300px;
+}
