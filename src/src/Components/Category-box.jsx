@@ -11,9 +11,9 @@ return(<>
 
 </div>
 <div className="CAT-Details">
-
+<h2>{item}</h2>
 <button>
- {item}
+ تماشای بیشتر
 </button>
 </div>
 </div>)}
@@ -27,9 +27,9 @@ return(<>
 
 </div>
 <div className="CAT-Details">
-
+<h2>{item}</h2>
 <button>
- {item}
+تماشای بیشتر
 </button>
 </div>
 </div>)}
