@@ -9,7 +9,12 @@ function SignUp_Details(){
 return(<>
 
 <div className="Formbox">
-<form>
+
+  
+  <div className="boxformation">
+  
+<form className="signupdet">
+<div className="LOGOFORFORM"></div>
 <div className="mb-3">
   <label htmlFor="Name&FamilyName">نام و نام خانوادگی</label>
   <br></br>
@@ -35,14 +40,24 @@ return(<>
 
 
 <div className="mb-3">
-  <label htmlFor="ZIPcode">کد پستی</label>
+  <label htmlFor="BirthDate">تاریخ تولد</label>
   <br></br>
-  <input id="ZIPcode" className="Formcontrol" type="text" />
+  <input id="BithDate" className="Formcontrol" type="date" />
 </div>
+
+
+
+<div className="mb-3">
+  <label htmlFor="Address">تاریخ تولد</label>
+  <br></br>
+  <input id="Address" className="Formcontrol" type="box" />
+</div>
+
 
 <button type="button" class="btn btn-primary">ثبت اطلاعات</button>
 
 </form>
+</div>
 </div>
 
 

@@ -151,24 +151,44 @@
     }
     
     .Formbox {
-        display: inline-block;
         width: 50%;
-        float: right;
-        align-content: space-around;
-        justify-items: center;
         margin: auto;
+        height: 100vh;
+        display: inline-block;
     }
     
     .Formcontrol {
-        border: 0.5px solid #666;
-        border-radius: 5px;
+        border: 0.5px solid #ddd;
+        border-radius: 15px;
         width: 370px;
+        height: 40px;
+        justify-items: center;
+        align-items: center;
+        margin: 5px 0px;
     }
     
-    .mb-3 {}
+    .mb-3 {
+        font-size: 16px;
+    }
     
     .btn-primary {
         background: rgba(8, 160, 110, 0.8);
         border-radius: 15px;
         width: 370px;
+    }
+    
+    .boxformation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .LOGOFORFORM {
+        display: inline-block;
+        height: 170px;
+        width: 370px;
+        background-color: #ddd;
+        border-radius: 25px;
+        margin-top: 100px;
     }
