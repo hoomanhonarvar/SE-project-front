@@ -7,6 +7,7 @@
 *{
   font-family: yekan;
   border: 0px;
+  font-size: 20px;
 }
 body{
   
@@ -40,14 +41,15 @@ background-color: rgb(69, 79, 125);
 color:#fff;
 padding: 10px;
 border-radius: 50px;
-font-size: 22px;
+font-size: 14px;
 
 }
 .Product-box{
 display: inline-block;
-justify-content: space-between;
+justify-content: stretch;
+
 padding: 20px;
-margin: auto;
+margin: 60px;
 
 }
 
@@ -67,7 +69,7 @@ display: inline-block;
 
 
 .productdetails{
-  justify-items: normal;
+  justify-items: stretch;
   float: right;
   padding: 20px;
   display: inline-block;
@@ -80,6 +82,7 @@ height: 30px;
 background-color: #F07006;
 border-radius: 5px;
 display: inline-block;
+color:  #fff;
 
 
 }
@@ -93,16 +96,59 @@ margin: 20px;
 
 }
 
-#NEW{
-  font-size: 28px;
-}
-#BEST{
-  font-size: 28px;
-}
 
-
+.Name{
+display: inline-block;
+padding-left: 100px;
+}
+.brand{
+  float: right;
+display: inline-block;
+font-size: 12px;
+}
 .FOOTER{
   background: rgba(14, 18, 37, 0.8);
   mix-blend-mode: normal;
   height: 300px;
+ color: #fff;
+ font-size: 18px;
+}
+
+
+.footercols{
+  float: right;
+display: inline-block;
+padding: 20px;
+margin: 20px;
+}
+
+.ICONS{
+  display: inline-block;
+  float: lef;
+  padding: 10px;
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+
+.f-row{
+  
+ justify-content: center; 
+display: flex;
+
+}
+
+.s-row{
+  justify-content: center; 
+  display: flex;}
+
+.CAT-CARD{
+  background-color: gray;
+  display: inline-block;
+  height: 310px;
+  width:560px ;
+  margin: 15px;
+  border-radius: 20px;
 }
