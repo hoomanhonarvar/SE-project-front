@@ -1,4 +1,4 @@
-import app from "./app.css"
+import App from "./../../Component/App/App.css"
 
 function CAT_BOX(){
   let CATG=['زنانه','مردانه'];

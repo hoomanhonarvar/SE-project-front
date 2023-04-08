@@ -1,5 +1,5 @@
 
-import app from "./app.css"
+import App from "./../../Component/App/App.css"
 import { FaShoppingCart,FaUser,FaSearch  } from "react-icons/fa";
 function NAVBAR(){
   const list = ['فروشگاه ','استوک','مردانه'];

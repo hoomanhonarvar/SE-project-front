@@ -1,4 +1,4 @@
-import app from "./app.css"
+import App from "./../../Component/App/App.css"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 // import '@coreui/coreui/dist/css/coreui.min.css'

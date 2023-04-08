@@ -6,7 +6,7 @@ import HOME from "./Homepage";
 
 
 
-function app(){
+const Home_page=()=>{
   return(<>
  
   <NAVBAR/>
@@ -15,4 +15,4 @@ function app(){
   </>);
 }
 
-export default app;
+export default Home_page;
