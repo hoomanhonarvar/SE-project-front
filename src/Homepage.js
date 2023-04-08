@@ -1,15 +1,18 @@
 import app from "./app.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-import CCarousel from '@coreui/react/src/components/carousel/CCarousel'
-import '@coreui/coreui/dist/css/coreui.min.css'
-
-
-
-function App(){ 
-  const list = ['فروشگاه ','استوک','مردانه'];
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+// import '@coreui/coreui/dist/css/coreui.min.css'
+import { FaShoppingCart  } from "react-icons/fa";
+// import Carousel from "./Carousel";
+import UncontrolledExample from "./Carousel";
+import CAT_BOX from "./Category-box";
+import Carousel from 'react-bootstrap/Carousel';
+ 
+function HOME(){ 
+ 
   let bestsellers=[1,2,3,4,5];
   let NewArivalls=[1,2,3,4,5];
+  
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -33,33 +36,8 @@ function App(){
 return(<>
 
 
-<div className="NAVBAR">
-  <div id="NAV1" >
-
-  <div>
-  <FontAwesomeIcon icon="fa-light fa-user"/>
-  </div>
-
-  </div>
-  <div className="NAV2">
-  <ul>
-  {list.map((item,index)=> <li key={index}>{item}</li>)}
-  </ul>
-  </div>
-
-</div>
-
-<CCarousel controls indicators>
-  <CCarouselItem>
-    <CImage className="d-block w-100" src={ReactImg} alt="slide 1" />
-  </CCarouselItem>
-  <CCarouselItem>
-    <CImage className="d-block w-100" src={VueImg} alt="slide 2" />
-  </CCarouselItem>
-  <CCarouselItem>
-    <CImage className="d-block w-100" src={AngularImg} alt="slide 3" />
-  </CCarouselItem>
-</CCarousel>
+{/* <Carousel/> */}
+<UncontrolledExample/>
 
 <div className="Product-box" id="New Arivalls">
  <div className="heading"> 
@@ -71,12 +49,12 @@ return(<>
   {bestsellers.map((items,index)=><div className="product-card">
   <div className="productimg">
    {items}
+   <img src={require('./img/2.png').default} />
   </div>
   <div className="productdetails">
-    <span className="Name">کفش نایکی<br></br></span>
-    <span className="brand">کفش نایکی</span>
-
-    <button className="shopping-button">C</button>
+  <button className="shopping-button"><FaShoppingCart/></button>
+    <span className="Name">کفش نایکی<br></br><span className="brand">کفش نایکی</span>
+</span> 
   </div>
   </div> 
 )}
@@ -87,31 +65,26 @@ return(<>
  <button type="button" id="btn-1">مشاهده همه</button>
   <span id="BEST"> پر فروش ترین ها</span>
   </div>
-  {bestsellers.map((items,index)=>
-  <div className="product-card">
+  {bestsellers.map((items,index)=><div className="product-card">
   <div className="productimg">
-   
    {items}
+   <img src={require('./img/2.png').default} />
   </div>
   <div className="productdetails">
-
-    <span className="Name">کفش نایکی<br></br></span>
-    <span className="brand">کفش نایکی</span>
-
-    <button className="shopping-button">C</button>
+  <button className="shopping-button"><FaShoppingCart/></button>
+    <span className="Name">کفش نایکی<br></br><span className="brand">کفش نایکی</span>
+</span> 
   </div>
-
-
   </div> 
 )}
 
-</div>
 
-
-<div className="FOOTER">
 
 
 </div>
+
+<CAT_BOX/>
+
     </>
     
     
@@ -127,4 +100,4 @@ return(<>
  
 
 
-export default App;
+export default HOME;
