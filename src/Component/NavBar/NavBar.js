@@ -1,8 +1,7 @@
 import React from "react";
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-import Button from './../Button/Button'
-import Customersignin from "../../pages/Admin_login/Customer_signin/Customer_signin";
+import Customersignin from "../../pages/Customer_signin/Customer_signin";
 const Navbar =()=>
 (
     <ul className="Navbar">

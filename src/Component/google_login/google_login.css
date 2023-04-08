@@ -10,7 +10,7 @@ button-active-blue: #1669F2;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);}
 .google-icon-wrapper {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 1px;
     margin-left: 1px;
     width: 40px;
@@ -19,7 +19,7 @@ button-active-blue: #1669F2;
     background-color: white;
 }
 .google-icon {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 11px;
     margin-left: 11px;
     width: 18px;
