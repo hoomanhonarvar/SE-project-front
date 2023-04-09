@@ -1,10 +1,11 @@
 const baseStyle = {
-    position:" absolute",
-width: '401px',
-height: '88px',
-left:' 925px',
-top: '696px',
-
+  // position: 'absolute',
+  // width: '369px',
+  // height: '40px',
+  // left: '89px',
+  // top: '550px',
+  
+  
 
     // height: '50px',
     // width: '240px',

@@ -37,7 +37,10 @@ return(<>
 
 
 {/* <Carousel/> */}
+<div           style={{height: 500 ,margin: "auto"}}>
 <UncontrolledExample/>
+
+</div>
 
 <div className="Product-box" id="New Arivalls">
  <div className="heading"> 

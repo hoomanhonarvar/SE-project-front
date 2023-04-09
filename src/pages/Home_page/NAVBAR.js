@@ -1,6 +1,7 @@
 
 import App from "./../../Component/App/App.css"
 import { FaShoppingCart,FaUser,FaSearch  } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 function NAVBAR(){
   const list = ['فروشگاه ','استوک','مردانه'];
   
@@ -16,7 +17,9 @@ function NAVBAR(){
     <FaSearch/>
     </div>
     <div className="ICONS">
-    <FaUser/>
+      <Link to="/Customer_signin">
+        <FaUser/>
+      </Link>
     </div>
 
   <div>
