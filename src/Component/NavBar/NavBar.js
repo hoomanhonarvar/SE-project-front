@@ -25,6 +25,14 @@ const Navbar =()=>
                 home
             </Link>
         </li>
+        <li>
+            <Link to="/SignUpDetails">
+                <button>
+                    SignUpDetails
+                </button>
+            </Link>
+            
+        </li>
 
     </ul>
 )

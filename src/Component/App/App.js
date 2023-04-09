@@ -11,7 +11,9 @@ import {
 } from 'react-router-dom'
 import Navbar from './../NavBar/NavBar'
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
+import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
 function App() {
+
   return (
     <div className="App">
      <BrowserRouter>
@@ -20,6 +22,9 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home_page />
+          </Route>
+          <Route exact path='/SignUpDetails'>
+            <SignUp_Details/>
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
