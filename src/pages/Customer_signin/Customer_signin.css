@@ -56,3 +56,6 @@
 .react-phone-number-input{
   border: 0px;
 }
+btn-lg {
+  --bs-btn-padding-x: 7rem;
+}

@@ -7,7 +7,7 @@ import PhonenumberFrom from "../../Component/Forms/phoneNumber";
 import ShowAndHidePassword from "../../Component/Button/Show_password";
 import GoogleLoginComponent from "../../Component/google_login/googel_login"
 import google from './Untitled.png'
-
+import {Link} from 'react-router-dom'
 const Customersignin=()=> {
 
   return (
@@ -44,9 +44,11 @@ const Customersignin=()=> {
                   {/* <div> */}
                   {/* </div> */}
                   <p></p>
+                  <Link to="/SignUpDetails">
                   <button type="submit" id="forgetPassword" className="pure-button puree-button-secondary challenge-button">
                     Create an account
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -22,19 +22,17 @@ const Navbar =()=>
         </li>
         <li>
             <Link to="/">
-                <button>
                 home
-                </button>
             </Link>
         </li>
         <li>
-            <Link to="/Customer_panel">
-            <button>
-                Customer_page
-            </button>
+            <Link to="/SignUpDetails">
+                <button>
+                    SignUpDetails
+                </button>
             </Link>
+            
         </li>
-
 
     </ul>
 )
