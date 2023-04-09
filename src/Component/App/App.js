@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
 import Button from './../Button/Button'
-import Admin_login from './../../pages/Admin_login/Admin_login'
+import Admin_login from './../../pages/Admin_login/Admin_login';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Home_page from '../../pages/Home_page/Home_page';
 import {
   BrowserRouter,
   Route,
   Switch,
-} from 'react-router-dom'
-import Navbar from './../NavBar/NavBar'
+} from 'react-router-dom';
+import Navbar from './../NavBar/NavBar';
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
+import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,7 @@ function App() {
 
         <Switch>
           <Route exact path='/'>
+            <Home_page />
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
@@ -25,6 +29,9 @@ function App() {
           </Route>
           <Route path="/Customer_signin"> 
               <Customersignin />
+          </Route>
+          <Route path="/Admin_dashboard">
+              <Admindashboard />
           </Route>
         </Switch>
      </BrowserRouter>

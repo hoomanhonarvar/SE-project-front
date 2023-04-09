@@ -1,13 +1,12 @@
 import React from "react";
 import  ReactDOM  from "react";
 import './Customer_signin.css'
-import GoogleLoginComponent from './../../Component/google_login/googel_login.'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PhonenumberFrom from "../../Component/Forms/phoneNumber";
 import ShowAndHidePassword from "../../Component/Button/Show_password";
-import google from './Untitled.png'
+import GoogleLoginComponent from "../../Component/google_login/googel_login"
 
-function Customersignin() {
+const Customersignin=()=> {
 
   return (
     <section className="vh-100" style={{ background: "#ffffff" }}>
@@ -36,8 +35,12 @@ function Customersignin() {
                   <button type="submit" id="forgetPassword" className="forgetPassword">
                     Forget password?
                   </button>
-                  <p></p>
-                  <img src={google} alt="Logo" />
+                  <p></p><div className="form-outline mb-4">
+                  <GoogleLoginComponent />
+                  </div>
+                  {/* <img src={google} alt="Logo" /> */}
+                  {/* <div> */}
+                  {/* </div> */}
                   <p></p>
                   <button type="submit" id="forgetPassword" className="pure-button puree-button-secondary challenge-button">
                     Create an account
@@ -50,12 +53,12 @@ function Customersignin() {
       </div>
     </section>
   );
-}
-
-
-const Admin_login=()=>{
-
-
-
 };
+
+
+// const Admin_login=()=>{
+
+
+
+// };
 export default Customersignin
