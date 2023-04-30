@@ -25,6 +25,13 @@ const Navbar =()=>
                 home
             </Link>
         </li>
+        <li>
+            <Link to="/Admin_dashboard">
+                <button>
+                    Admin-dashboard
+                </button>
+            </Link>
+        </li>
 
     </ul>
 )
