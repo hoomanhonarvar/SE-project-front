@@ -1,10 +1,12 @@
 import React from "react";
 import  ReactDOM  from "react";
 import './Customer_signin.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PhonenumberFrom from "../../Component/Forms/phoneNumber";
 import ShowAndHidePassword from "../../Component/Button/Show_password";
 import GoogleLoginComponent from "../../Component/google_login/googel_login"
+
 
 const Customersignin=()=> {
 
