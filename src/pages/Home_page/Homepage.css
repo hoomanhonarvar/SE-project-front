@@ -109,7 +109,8 @@ overflow: hidden;
  }
 
 .FOOTER{
-  background: rgba(14, 18, 37, 0.8);
+  /* background: rgba(14, 18, 37, 0.8); */
+  background: rgba(203, 206, 220, 0.8);
   mix-blend-mode: normal;
   height: 300px;
  color: #fff;
