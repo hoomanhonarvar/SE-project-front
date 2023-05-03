@@ -1,5 +1,5 @@
 
-
+import "./FOOTER.css"
 function FOOTER(){
   const Footer_items=['درباره ما','ارتباط با ما','خدمات مشتریان'];
 
