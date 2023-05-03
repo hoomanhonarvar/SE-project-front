@@ -1,58 +1,52 @@
-.split {
-    height: 100%;
-    width: 60%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-.left {
-  left: 0;
-  background-color: #08A06E;
-  border-radius: 1px;
-
+.Colorbox {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  background: linear-gradient(151.79deg, rgba(69, 79, 125, 0.85) 0%, rgba(8, 160, 110, 0.85) 81.25%);
+  height: 100vh;
 }
 
-/* Control the right side */
-.right {
-  right: 0;
+.Formbox {
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  display: inline-block;
+}
+
+.Formcontrol {
+  border: 0.5px solid #ddd;
+  border-radius: 15px;
+  width: 370px;
+  height: 61px;
+  justify-items: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.mb-3 {
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: rgba(8, 160, 110, 0.8);
+  border-radius: 15px;
+  width: 370px;
+}
+
+.boxformation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   background-color: white;
 }
 
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.LOGOFORFORM {
+  display: inline-block;
+  height: 100px;
+  width: 370px;
+  border-radius: 10px;
 }
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-.forgetPassword{
-    text-align: right;
-    color: black;
-}
-.forgetPassword:hover{
-  color: #0d6efd;
-}
-
-.puree-button-secondary {
-  color: #08A06E;
-  background: 0 0;
-  border: 0px;
-}
-
-.puree-button-secondary:hover {
-  color: #0d6efd;
-}
-.react-phone-number-input{
-  border: 0px;
+.FOOTER{
+  background-color: white;
 }
