@@ -26,6 +26,11 @@ const Navbar =()=>
             </Link>
         </li>
         <li>
+            <Link to ="/SignUpDetails">
+                SignUpDetails
+            </Link>
+        </li>
+        <li>
             <Link to="/Admin_dashboard">
                 <button>
                     Admin-dashboard

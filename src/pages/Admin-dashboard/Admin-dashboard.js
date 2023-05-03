@@ -13,7 +13,7 @@ import datkMode from "../../Component/Button/dark&brightMode.png";
 
 const Admindashboard = () => {
   return (
-    <div>
+    <div className="total">
       <div className="headers">
         <IoSearch className="searchIcon" />
         <input className="searchForm" placeholder="جستجو کنید" type="text" />
