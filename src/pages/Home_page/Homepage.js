@@ -1,4 +1,4 @@
-import App from "./../../Component/App/App.css"
+import styles from "./Homepage.css"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 // import '@coreui/coreui/dist/css/coreui.min.css'
@@ -35,7 +35,7 @@ function HOME(){
 
 return(<>
 
-
+<div style={{backgroundColor: "#fff"}}>
 {/* <Carousel/> */}
 <div           style={{height: 500 ,margin: "auto"}}>
 <UncontrolledExample/>
@@ -87,7 +87,7 @@ return(<>
 </div>
 
 <CAT_BOX/>
-
+</div>
     </>
     
     

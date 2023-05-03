@@ -10,10 +10,9 @@
   font-size: 20px;
 }
 body{
-  
   margin: 0;
   padding: 0;
-  
+  background-color: #fff;
 }
 
  .NAVBAR{
@@ -35,77 +34,7 @@ overflow: hidden;
   float:right;
   margin: 20px;
  }
-#btn-1{
-  font-family: yekan;
-background-color: rgb(69, 79, 125);
-color:#fff;
-padding: 10px;
-border-radius: 50px;
-font-size: 14px;
 
-}
-.Product-box{
-display: inline-block;
-justify-content: stretch;
-
-padding: 20px;
-margin: 60px;
-
-}
-
-.product-card{
-  float: right;
-  justify-content: stretch;
-  padding: 30px;
-display: inline-block;
-
-}
-
-.heading{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-
-.productdetails{
-  justify-items: stretch;
-  float: right;
-  padding: 20px;
-  display: inline-block;
-}
-
-
-.shopping-button{
-width: 30px;
-height: 30px;
-background-color: #F07006;
-border-radius: 5px;
-display: inline-block;
-color:  #fff;
-
-
-}
-.productimg{
-  background-color: #666;
-  border-radius: 55px;
-width: 200px;
-  height: 200px;
-padding: 20px;
-margin: 20px;
-
-}
-
-
-.Name{
-display: inline-block;
-padding-left: 100px;
-}
-.brand{
-  float: right;
-display: inline-block;
-font-size: 12px;
-}
 .FOOTER{
   background: rgba(14, 18, 37, 0.8);
   mix-blend-mode: normal;

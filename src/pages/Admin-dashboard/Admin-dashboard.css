@@ -1,7 +1,8 @@
 body {
-  background-color: #0e1225;
   bottom: 500px;
+  background-color: #0e1225;
 }
+
 .chart {
   position: absolute;
   width: 305px !important;
