@@ -1,0 +1,20 @@
+.forgetPassword:hover{
+    color: red;
+    border: none;
+    background-color:#ffffff;
+}
+.forgetPassword{
+    border: none;
+    background-color: #ffffff;
+}
+.loginbtn{
+    background-color: #08A06E;
+
+}
+.card{
+    --bs-card-border-width: 3px;
+}
+.btn-lg{
+    --bs-btn-padding-x: 8rem;
+}
+

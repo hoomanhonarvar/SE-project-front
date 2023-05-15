@@ -4,6 +4,11 @@ import Button from './../Button/Button'
 import Admin_login from './../../pages/Admin_login/Admin_login'
 import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home_page from '../../pages/Home_page/Home_page';
+import NotFound from '../../pages/404/NotFound';
+import Contating from '../../pages/contactUss/contact';
+import ForgetPasswors from '../../pages/ForgetPassword/ForgetPass';
+import ForgetPasswors2 from '../../pages/ForgetPassword/FrogetPassword2';
+
 import {
   BrowserRouter,
   Route,
@@ -23,10 +28,21 @@ function App() {
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
-
+          </Route>
+          <Route path='/ForgetPassword'>
+            <ForgetPasswors />
+          </Route>
+          <Route path='/ForgetPassword2'>
+            <ForgetPasswors2 />
           </Route>
           <Route path="/Customer_signin"> 
               <Customersignin />
+          </Route>
+          <Route path="/contactUss"> 
+              <Contating />
+          </Route>
+          <Route path="*">
+              <NotFound />
           </Route>
         </Switch>
      </BrowserRouter>
