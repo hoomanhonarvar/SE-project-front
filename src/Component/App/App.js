@@ -8,6 +8,7 @@ import NotFound from '../../pages/404/NotFound';
 import Contating from '../../pages/contactUss/contact';
 import ForgetPasswors from '../../pages/ForgetPassword/ForgetPass';
 import ForgetPasswors2 from '../../pages/ForgetPassword/FrogetPassword2';
+import Customer_panel from '../../pages/Customer_panel/Admin-dashboard';
 
 import {
   BrowserRouter,
@@ -16,6 +17,7 @@ import {
 } from 'react-router-dom'
 import Navbar from './../NavBar/NavBar'
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
+import Admindashboard2 from '../../pages/Customer_panel/Admin-dashboard';
 function App() {
   return (
     <div className="App">
@@ -40,6 +42,9 @@ function App() {
           </Route>
           <Route path="/contactUss"> 
               <Contating />
+          </Route>
+          <Route path="/Customer_panel"> 
+              <Admindashboard2 />
           </Route>
           <Route path="*">
               <NotFound />
