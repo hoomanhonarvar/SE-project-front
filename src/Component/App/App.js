@@ -18,6 +18,7 @@ import {
 import Navbar from './../NavBar/NavBar'
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard2 from '../../pages/Customer_panel/Admin-dashboard';
+import Confriming from '../../pages/ForgetPassword/Confrimcode';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path='/ForgetPassword'>
             <ForgetPasswors />
+          </Route>
+          <Route path='/Comfirm'>
+            <Confriming />
           </Route>
           <Route path='/ForgetPassword2'>
             <ForgetPasswors2 />
