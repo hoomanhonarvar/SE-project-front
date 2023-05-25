@@ -13,6 +13,10 @@ import Navbar from './../NavBar/NavBar';
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
+import NotFound from '../../pages/404/NotFound';
+import Contating from '../../pages/ContactUss/contact';
+import { sweet } from '../../pages/Pardakht movafagh/Secssufully_pay';
+import { sweet2 } from '../../pages/Pardakht_namofagh/pardakh_namof';
 function App() {
   return (
     <div className="App">
@@ -22,6 +26,16 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home_page />
+          </Route>
+          
+          <Route exact path='/contactUss'>
+            <Contating/>
+          </Route>
+          <Route exact path='/pardakht_movafagh'>
+            <sweet/>
+          </Route>
+          <Route exact path='/pardakht_namovafagh'>
+            <sweet2/>
           </Route>
           <Route path='/SignUpDetails'>
               <SignUp_Details />
@@ -35,6 +49,9 @@ function App() {
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />
+          </Route>
+          <Route exact path='/*'>
+            <NotFound />
           </Route>
         </Switch>
      </BrowserRouter>
