@@ -13,6 +13,7 @@ import Navbar from './../NavBar/NavBar';
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
+import CustomerSignup from '../../pages/Customer_singup/Customer_signup';
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/Customer_signin"> 
               <Customersignin />
+          </Route>
+          <Route path="/Customer_signup"> 
+              <CustomerSignup/>
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />

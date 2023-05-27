@@ -13,13 +13,13 @@ const Navbar =()=>
             </Link>
             
         </li>
-        <li>
+        {/* <li>
             <Link to="/Customer_signin">
                 <button>
                     Customer sign in
                 </button>
             </Link>
-        </li>
+        </li> */}
         <li>
             <Link to="/">
                 home
