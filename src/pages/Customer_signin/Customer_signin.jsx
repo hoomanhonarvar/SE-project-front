@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Customer_signin.css"
 import logo from "./Full-logo.jpg"
 import PhonenumberFrom from "../../Component/Forms/phoneNumber"
+import FormComponent from "../../Component/Forms/Email_validation"
 function CustomerSignin(){
 
 return(<>
@@ -22,16 +23,27 @@ return(<>
   {PhonenumberFrom()}
 </div>
 
+
 <div className="mb-3">
   <label htmlFor="ID">رمز عبور</label>
   <br></br>
   <input id="ID" className="Formcontrol" type="password" />
 </div>
 
+<div>
+  <div className="mb-3">
+    <lable htmlFor="ID"></lable>
+    <FormComponent />
+  </div>
+
+</div>
+
+
+
 <div style={{backgroundColor: "white"}}>
 
 
-<button type="button" class="btn btn-primary">ورود</button>
+{/* <button type="button" class="btn btn-primary">ورود</button> */}
 
 </div>
 </form>
