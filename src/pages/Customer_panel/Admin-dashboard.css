@@ -10,7 +10,7 @@ body {
   border-radius: 40px;
 }
 .inbox {
-  position: absolute;
+  /* position: absolute; */
   width: 305px;
   height: 305px;
   left: 70px;
@@ -18,7 +18,7 @@ body {
   border-radius: 40px;
 }
 .empty {
-  position: absolute;
+  /* position: absolute; */
   width: 305px;
   height: 305px;
   left: 449px;
@@ -26,7 +26,7 @@ body {
   border-radius: 40px;
 }
 .headers {
-  position: absolute;
+  /* position: absolute; */
   width: 811px;
   height: 50px;
   left: 49px;
@@ -35,14 +35,14 @@ body {
 .searchIcon {
   color: white;
 
-  position: absolute;
+  /* position: absolute; */
   width: 30px;
   height: 30px;
   left: 830px;
   top: 0px;
 }
 .searchForm {
-  position: absolute;
+  /* position: absolute; */
   width: 592px;
   height: 28px;
   left: 180px;
@@ -59,7 +59,7 @@ body {
   background-color: #0e1225;
 }
 .notifications {
-  position: absolute;
+  /* position: absolute; */
   width: 50px;
   height: 50px;
   left: 49px;
@@ -70,14 +70,14 @@ body {
 .ellipse {
   color: orange;
 
-  position: absolute;
+  /* position: absolute; */
   left: 10%;
   right: -2%;
   top: -50%;
   bottom: 82%;
 }
 .rectangle {
-  position: absolute;
+  /* position: absolute; */
   width: 1067px;
   height: 140px;
   left: 68px;
@@ -90,7 +90,7 @@ body {
 }
 
 .person {
-  position: absolute;
+  /* position: absolute; */
   width: 100px;
   height: 100px;
   top: 127px;
@@ -102,7 +102,7 @@ body {
   background: #cacfeb;
 }
 .sidebar {
-  position: absolute;
+  /* position: absolute; */
   width: 197px;
   height: 885px;
   left: 1226px;
@@ -111,7 +111,7 @@ body {
   border-radius: 10px;
 }
 .name {
-  position: absolute;
+  /* position: absolute; */
   width: 197px;
   height: 46px;
   left: 83px;
@@ -131,7 +131,7 @@ body {
   color: #ffffff;
 }
 .edit {
-  position: absolute;
+  /* position: absolute; */
   width: 42px;
   height: 22px;
   left: 78px;

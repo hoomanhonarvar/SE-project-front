@@ -16,7 +16,9 @@ import linig from "./lin4.jpg";
 const Admindashboard2 = () => {
   return (
     <div className="total">
-      <div className="headers">
+      <div className="row">
+        <div className="col-md-8">
+        <div className="headers">
         <IoSearch className="searchIcon" />
         <input className="searchForm" placeholder="جستجو کنید" type="text" />
         <button style={{background:"none",marginRight:"20px"}} >
@@ -25,7 +27,8 @@ const Admindashboard2 = () => {
         <button style={{background:"none"}} >
            <img src={Image01} alt="image" />
         </button>
-        
+        <hr/>
+
          <div style={{textAlign:"end",display:"flex",marginTop:"3rem"}} className="row">
          <div className="col-6"> <p style={{color:"rgba(155, 160, 181, 0.8)"}}>سفارش ها</p></div>
           <div className="col-6"> <p style={{color:"rgba(155, 160, 181, 0.8)"}}>اطلاعات مشتری</p></div>
@@ -33,15 +36,16 @@ const Admindashboard2 = () => {
           </div>
       </div>
       <hr/>
-      
       <img src={linig} style={{width:"79%",marginTop:"5rem",marginLeft:"0.5rem"}}  />
+        </div>
+        <div className="col-md-4">
+       
       
       <div className="sidebar">
         <BsPersonCircle className="person" />
         <h3 className="name">مشتری</h3>
         <button className="edit">ویرایش</button>
         <div className="buttonList">
-        
           <Button className="btn1">خانه </Button>
           <Button className="btn2">داشبورد</Button>
           <Button className="btn3">علاقه مندی ها</Button>
@@ -49,6 +53,11 @@ const Admindashboard2 = () => {
           <img src={datkMode} className="darkmode" />
         </div>
       </div>
+
+        </div>
+      </div>
+      
+     
     </div>
   );
 };

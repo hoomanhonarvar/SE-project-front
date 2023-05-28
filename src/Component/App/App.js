@@ -20,6 +20,7 @@ import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard2 from '../../pages/Customer_panel/Admin-dashboard';
 import Confriming from '../../pages/ForgetPassword/Confrimcode';
 import Cart from '../../pages/Cart/Cart';
+import Customerpanel1 from '../../pages/Customer_panel/CustomerPanel';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,9 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home_page />
+          </Route>
+          <Route path='/customerpanel'>
+            <Customerpanel1 />
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
