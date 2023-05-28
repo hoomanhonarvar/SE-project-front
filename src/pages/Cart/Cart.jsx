@@ -3,8 +3,10 @@ import tarsh from './button/icons8-trash-30.png';
 import heart from './button/icons8-heart-30.png';
 
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Sidebar } from "@coreui/coreui";
+import { IoPhonePortrait } from "react-icons/io5";
 const Cart=()=>{
   return(
     <div style={{backgroundColor:'white',paddingTop:'10px',paddingBottom:'10px'}}>
