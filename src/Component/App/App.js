@@ -55,9 +55,7 @@ function App() {
           <Route path="/contactUss"> 
               <Contating />
           </Route>
-          <Route path="/Customer_panel"> 
-              <Admindashboard2 />
-          </Route>
+       
           <Route path="*">
               <NotFound />
           </Route>
