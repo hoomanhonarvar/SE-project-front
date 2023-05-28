@@ -1,0 +1,27 @@
+
+*{
+  box-sizing: border-box;
+}
+.SetQuantity{
+padding: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+.Frame{
+  display: inline-block;
+  width: 20%;
+  margin: 50px;
+  border: 0.5px solid #aaa;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+.details-write{
+  border-bottom: dashed #bbb 2px;
+}
+textarea{
+
+  border: 0.5px solid #ddd;
+  padding: 5px;
+
+}

@@ -1,0 +1,26 @@
+
+.amount-toggle{
+  font-size: 20px;
+  display: flex;
+border: 0.3 solid #bbb;
+border-radius: 5px;
+padding: 20px;
+margin: auto;
+justify-content: space-around;
+}
+
+.cart-button {
+  border-bottom: dashed #bbb 2px;
+}
+button{
+  background-color: #4F8F84;
+  color:#fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.amount-style{
+  font-size: 20px;
+  margin: 0px 50px;
+}

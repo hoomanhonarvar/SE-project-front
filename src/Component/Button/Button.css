@@ -1,9 +1,0 @@
-.button {    
-  position: absolute;
-  width: 155px;
-  height: 43px;
-  left: 21px;
-  background: linear-gradient(0deg, rgba(205, 203, 203, 0.2), rgba(205, 203, 203, 0.2)), linear-gradient(0deg, rgba(230, 230, 230, 0.2), rgba(230, 230, 230, 0.2)), rgba(14, 18, 37, 0.3);
-  border-radius: 15px;
-  color: white;
-}
