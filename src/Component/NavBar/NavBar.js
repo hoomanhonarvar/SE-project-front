@@ -37,6 +37,13 @@ const Navbar =()=>
                 </button>
             </Link>
         </li>
+        <li>
+            <Link to="/Shop">
+                <button>
+                    Shop
+                </button>
+            </Link>
+        </li>
 
     </ul>
 )

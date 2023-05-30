@@ -1,66 +1,47 @@
 import React from "react";
-import  ReactDOM  from "react";
-import './Customer_signin.css'
+import styles from "./Customer_signin.css"
+import logo from "./Full-logo.jpg"
+import PhonenumberFrom from "../../Component/Forms/phoneNumber"
+function CustomerSignin(){
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import PhonenumberFrom from "../../Component/Forms/phoneNumber";
-import ShowAndHidePassword from "../../Component/Button/Show_password";
-import GoogleLoginComponent from "../../Component/google_login/googel_login"
+return(<>
+<div style={{backgroundColor: "white"}}>
 
+<div className="Formbox">
 
-const Customersignin=()=> {
+  
+  <div className="boxformation">
+  
+<form className="signupdet">
+<div className="LOGOFORFORM">
+  <img src={logo} style={{width: "370px", borderRadius: "10px", height: "170px"}}/>
+</div>
+<div className="mb-3">
+<label htmlFor="ID">شماره تلفن همراه</label>
+<br></br>
+  {PhonenumberFrom()}
+</div>
 
-  return (
-    <section className="vh-100" style={{ background: "#ffffff" }}>
-      <div className="containerpy-5h-100">
-        <div className="row d-flex justify-content-center align-items-center h-100">
-          <div className="col-12 col-md-8 col-lg-6 col-xl-5">
-            <div className="card shadow-2-strong" style={{ borderRadius: '1rem' }}>
-              <div className="card-body p-5 text-center">
-                <h3 className="mb-5">Sign in</h3>
-                <div className="form-outline mb-4">
-                  {PhonenumberFrom()}
-                  <label className="form-label" for="tel">Phone number</label>
-                </div>
+<div className="mb-3">
+  <label htmlFor="ID">رمز عبور</label>
+  <br></br>
+  <input id="ID" className="Formcontrol" type="password" />
+</div>
 
-                <div className="form-outline mb-4">
-                  <div className="input-group">
-                    <input type='password' id="password" className="form-control form-control-lg" />
-                    <button className="btn btn-outline-primary" onClick={ShowAndHidePassword}></button>
-                  </div>
-                  <label className="form-label" for="password">Password</label>
-                </div>
-
-                <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">Login</button>
-                <div>
-                  <p></p>
-                  <button type="submit" id="forgetPassword" className="forgetPassword">
-                    Forget password?
-                  </button>
-                  <p></p><div className="form-outline mb-4">
-                  <GoogleLoginComponent />
-                  </div>
-                  {/* <img src={google} alt="Logo" /> */}
-                  {/* <div> */}
-                  {/* </div> */}
-                  <p></p>
-                  <button type="submit" id="forgetPassword" className="pure-button puree-button-secondary challenge-button">
-                    Create an account
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+<div style={{backgroundColor: "white"}}>
 
 
-// const Admin_login=()=>{
+<button type="button" class="btn btn-primary">ورود</button>
 
+</div>
+</form>
+</div>
+</div>
 
+<div className="Colorbox"></div>
+</div>
+</>)
 
-// };
-export default Customersignin
+}
+
+export default CustomerSignin;

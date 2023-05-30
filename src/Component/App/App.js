@@ -13,6 +13,9 @@ import Navbar from './../NavBar/NavBar';
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
+import Shop from '../../pages/Shop/Shop'
+
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +38,9 @@ function App() {
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />
+          </Route>
+          <Route path="/Shop">
+              <Shop />
           </Route>
         </Switch>
      </BrowserRouter>

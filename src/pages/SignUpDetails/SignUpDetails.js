@@ -2,10 +2,6 @@ import React from "react";
 import styles from "./SignUpDetails.css"
 function SignUp_Details(){
 
-//   handlesubmit=(e)=>{
-// e.preventDefault();
-// console.log("submitted");
-//   }
 return(<>
 <div style={{backgroundColor: "white"}}>
 

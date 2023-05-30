@@ -1,6 +1,6 @@
-import React from "react";
+import React , {Component} from "react";
 import ColumnChart from "./Column Chart";
-import "./Admin-dashboard.css";
+import './Admin-dashboard.css';
 import inbox from "./inbox.png";
 import empty from "./empty.png";
 import { IoSearch } from "react-icons/io5";
@@ -12,7 +12,9 @@ import Button from "../../Component/Button/Button";
 import datkMode from "../../Component/Button/dark&brightMode.png";
 
 const Admindashboard = () => {
+  document.body.style.backgroundColor = "#0e1225";
   return (
+    <>
     <div className="total">
       <div className="headers">
         <IoSearch className="searchIcon" />
@@ -37,6 +39,7 @@ const Admindashboard = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
