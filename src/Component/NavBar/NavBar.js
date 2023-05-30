@@ -13,23 +13,45 @@ const Navbar =()=>
             </Link>
             
         </li>
-        {/* <li>
-            <Link to="/Customer_signin">
+       
+        <li>
+            <Link to="/Cart">
                 <button>
-                    Customer sign in
+                    Cart
                 </button>
             </Link>
-        </li> */}
+            
+        </li>
+        <li>
+            <Link to="/pardakht_movafagh">
+                <button>
+                Pardakhtmovafagh
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link to="/Pardakht_namovafagh">
+                <button>
+                Pardakhtnamovafagh
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link to="/Customer_Panel">
+                <button>
+                    Customer_panel
+                </button>
+            </Link>
+            
+        </li>
         <li>
             <Link to="/">
                 home
             </Link>
         </li>
-        <li>
-            <Link to ="/SignUpDetails">
-                SignUpDetails
-            </Link>
-        </li>
+        
         <li>
             <Link to="/Admin_dashboard">
                 <button>

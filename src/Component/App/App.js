@@ -14,6 +14,12 @@ import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
 import CustomerSignup from '../../pages/Customer_singup/Customer_signup';
+import Contating from '../../pages/contactUss/contact';
+import Admindashboard2 from './../../pages/Customer_panel/Admin-dashboard';
+import Cart from '../../pages/Cart/Cart';
+import NotFound from '../../pages/404/NotFound';
+import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
+import { sweet2 } from '../../pages/Pardakht_namofagh/pardakh_namof';
 function App() {
   return (
     <div className="App">
@@ -24,8 +30,25 @@ function App() {
           <Route exact path='/'>
             <Home_page />
           </Route>
+          
+          
+          <Route exact path='/Cart'>
+            <Cart/>
+          </Route>
+          <Route exact path='/Customer_Panel'>
+            <Admindashboard2 />
+          </Route>
+          <Route exact path='/ContactUss'>
+            <Contating />
+          </Route>
           <Route path='/SignUpDetails'>
               <SignUp_Details />
+          </Route>
+          <Route exact path='/pardakht_movafagh'>
+            <sweet></sweet>
+          </Route>
+          <Route exact path='/pardakht_namovafagh'>
+            <sweet2/>
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
@@ -39,6 +62,9 @@ function App() {
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />
+          </Route>
+          <Route exact path='/*'>
+            <NotFound />
           </Route>
         </Switch>
      </BrowserRouter>
