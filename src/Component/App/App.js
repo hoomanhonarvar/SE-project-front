@@ -20,6 +20,8 @@ import Cart from '../../pages/Cart/Cart';
 import NotFound from '../../pages/404/NotFound';
 import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
 import { sweet2 } from '../../pages/Pardakht_namofagh/pardakh_namof';
+import Shop from '../../pages/Shop/Shop';
+import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
 function App() {
   return (
     <div className="App">
@@ -30,13 +32,15 @@ function App() {
           <Route exact path='/'>
             <Home_page />
           </Route>
-          
+          <Route exact path='/Shop'>
+            <Shop/>
+          </Route>
           
           <Route exact path='/Cart'>
             <Cart/>
           </Route>
           <Route exact path='/Customer_Panel'>
-            <Admindashboard2 />
+            <Coutomrtpanel />
           </Route>
           <Route exact path='/ContactUss'>
             <Contating />
@@ -47,7 +51,7 @@ function App() {
           <Route exact path='/pardakht_movafagh'>
             <sweet></sweet>
           </Route>
-          <Route exact path='/pardakht_namovafagh'>
+          <Route exact path="/Pardakht_namovafagh">
             <sweet2/>
           </Route>
           <Route path='/Admin-login'>

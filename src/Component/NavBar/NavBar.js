@@ -13,6 +13,14 @@ const Navbar =()=>
             </Link>
             
         </li>
+        <li>
+            <Link to="/Shop">
+                <button>
+                    Shop
+                </button>
+            </Link>
+            
+        </li>
        
         <li>
             <Link to="/Cart">
@@ -23,7 +31,7 @@ const Navbar =()=>
             
         </li>
         <li>
-            <Link to="/pardakht_movafagh">
+            <Link exact path to='/pardakht_movafagh'>
                 <button>
                 Pardakhtmovafagh
                 </button>
@@ -31,7 +39,7 @@ const Navbar =()=>
             
         </li>
         <li>
-            <Link to="/Pardakht_namovafagh">
+            <Link exact path to="/Pardakht_namovafagh">
                 <button>
                 Pardakhtnamovafagh
                 </button>

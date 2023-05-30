@@ -5,7 +5,7 @@ import Image01 from "./Cart.png";
 import img2 from "./notification.png";
 import image3 from "./user.png";
 import datkMode from "../../Component/Button/dark&brightMode.png";
-
+import {Link} from 'react-router-dom'
 const Coutomrtpanel=()=>{
     return(
       <dvi className="row" style={{padding:'20px'}}>
@@ -44,10 +44,11 @@ const Coutomrtpanel=()=>{
                 فعالیت ها
             </button>
             <br />
-
+            <Link to ="/SignUpDetails">
             <button type="button" class="btn btn-secondary  btn-block" style={{backgroundColor:'#363946',width:'100%',marginBottom:'5%'}}>
                 تکمیل اطلاعات شخصی
             </button>
+            </Link>
             <br />
             <button type="button" class="btn btn-secondary  btn-block" style={{backgroundColor:'#363946',width:'100%'}}>
                 تنظیمات
