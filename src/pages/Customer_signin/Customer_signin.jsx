@@ -5,7 +5,6 @@ import PhonenumberFrom from "../../Component/Forms/phoneNumber"
 import FormComponent from "../../Component/Forms/Email_validation"
 import Submit from "../../Component/Submit/Submit_signin";
 import {Link} from 'react-router-dom'
-
 function CustomerSignin(){
 
 
@@ -73,9 +72,9 @@ return(<>
 
 <div style={{backgroundColor: "white"}}>
 
-
+<Link to ="/ForgetPass">
 <button type="button" class="btn btn-primary" >فراموشی رمز عبور</button>
-
+</Link>
 </div>
 
 </form>

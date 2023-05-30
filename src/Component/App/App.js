@@ -22,6 +22,8 @@ import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
 import { sweet2 } from '../../pages/Pardakht_namofagh/pardakh_namof';
 import Shop from '../../pages/Shop/Shop';
 import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
+import Forgetpass_code from '../../pages/Forget_password/Forget_password_codes';
+import Forgetpass from '../../pages/Forget_password/Forget_password';
 function App() {
   return (
     <div className="App">
@@ -60,6 +62,13 @@ function App() {
           </Route>
           <Route path="/Customer_signin"> 
               <Customersignin />
+              
+          </Route>
+          <Route exact path="/ForgetPass">
+                <Forgetpass />
+          </Route>
+          <Route exact path="/ForgetPasscode">
+                <Forgetpass_code />
           </Route>
           <Route path="/Customer_signup"> 
               <CustomerSignup/>
