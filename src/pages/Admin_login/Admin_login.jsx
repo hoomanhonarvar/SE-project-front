@@ -18,7 +18,6 @@ const Admin_login=()=>{
                     {PhonenumberFrom()}
                     <label className="form-label" for="tel">Phone number</label>
                   </div>
-
                   <div className="form-outline mb-4">
                     <div className="input-group">
                     <input type='password' id="password" className="form-control form-control-lg" />
@@ -26,7 +25,6 @@ const Admin_login=()=>{
                     </div>
                     <label className="form-label" for="password">Password</label>
                   </div>
-
                   <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">Login</button>
                   <div>
                       <p></p>

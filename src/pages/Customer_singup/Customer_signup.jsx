@@ -1,11 +1,12 @@
 import React from "react";
-import styles from "./Customer_signin.css"
+import styles from "./Customer_signup.css"
 import logo from "./Full-logo.jpg"
 import PhonenumberFrom from "../../Component/Forms/phoneNumber"
 import FormComponent from "../../Component/Forms/Email_validation"
-import Submit from "../../Component/Submit/Submit_signin";
+import Submit from "../../Component/Submit/Submit_signup";
 import {Link} from 'react-router-dom'
-function CustomerSignin(){
+
+function CustomerSignup(){
 
 
 return(<>
@@ -27,7 +28,6 @@ return(<>
   <br></br><br></br>
 </div>
 
-
 </div>
 <div className="mb-3">
 <label htmlFor="ID">شماره تلفن همراه</label>
@@ -43,40 +43,27 @@ return(<>
 </div>
 
 
-
-{/* 
-<div>
-  <div className="mb-3">
-    <lable htmlFor="ID"></lable>
-    <FormComponent />
-  </div>
-
-</div> */}
-
-
-
-<div style={{backgroundColor: "white"}}>
-
-
-<button type="Submit" class="btn btn-primary" onClick={Submit}>ورود</button>
-<br></br><br></br>
+<div className="mb-3">
+  <label htmlFor="ID">تکرار رمز عبور</label>
+  <br></br>
+  <input id="ID1" className="Formcontrol" type="password" />
 </div>
 
+
 <div style={{backgroundColor: "white"}}>
 
-<Link to ="/Customer_signup">
-<button type="button" class="btn btn-primary" >ساخت اکانت</button>
+
+<button type="Submit" class="btn btn-primary" onClick={Submit}>ثبت نام</button>
+<br>
+</br>
+<br>
+</br>
+<Link to ="/Customer_signin">
+  <button type="button" class="btn btn-primary" >ورود به اکانت</button>
 </Link>
-<br></br><br></br>
+
+
 </div>
-
-<div style={{backgroundColor: "white"}}>
-
-<Link to ="/ForgetPass">
-<button type="button" class="btn btn-primary" >فراموشی رمز عبور</button>
-</Link>
-</div>
-
 </form>
 </div>
 </div>
@@ -87,7 +74,4 @@ return(<>
 
 }
 
-export default CustomerSignin;
-
-
-
+export default CustomerSignup;

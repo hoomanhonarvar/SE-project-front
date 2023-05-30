@@ -13,10 +13,17 @@ import Navbar from './../NavBar/NavBar';
 import Customersignin from '../../pages/Customer_signin/Customer_signin';
 import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
+import CustomerSignup from '../../pages/Customer_singup/Customer_signup';
+import Contating from '../../pages/contactUss/contact';
+import Admindashboard2 from './../../pages/Customer_panel/Admin-dashboard';
+import Cart from '../../pages/Cart/Cart';
 import NotFound from '../../pages/404/NotFound';
-import Contating from '../../pages/ContactUss/contact';
-import { sweet } from '../../pages/Pardakht movafagh/Secssufully_pay';
+import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
 import { sweet2 } from '../../pages/Pardakht_namofagh/pardakh_namof';
+import Shop from '../../pages/Shop/Shop';
+import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
+import Forgetpass_code from '../../pages/Forget_password/Forget_password_codes';
+import Forgetpass from '../../pages/Forget_password/Forget_password';
 function App() {
   return (
     <div className="App">
@@ -27,18 +34,27 @@ function App() {
           <Route exact path='/'>
             <Home_page />
           </Route>
+          <Route exact path='/Shop'>
+            <Shop/>
+          </Route>
           
-          <Route exact path='/contactUss'>
-            <Contating/>
+          <Route exact path='/Cart'>
+            <Cart/>
           </Route>
-          <Route exact path='/pardakht_movafagh'>
-            <sweet/>
+          <Route exact path='/Customer_Panel'>
+            <Coutomrtpanel />
           </Route>
-          <Route exact path='/pardakht_namovafagh'>
-            <sweet2/>
+          <Route exact path='/ContactUss'>
+            <Contating />
           </Route>
           <Route path='/SignUpDetails'>
               <SignUp_Details />
+          </Route>
+          <Route exact path='/pardakht_movafagh'>
+            <sweet></sweet>
+          </Route>
+          <Route exact path="/Pardakht_namovafagh">
+            <sweet2/>
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
@@ -46,6 +62,16 @@ function App() {
           </Route>
           <Route path="/Customer_signin"> 
               <Customersignin />
+              
+          </Route>
+          <Route exact path="/ForgetPass">
+                <Forgetpass />
+          </Route>
+          <Route exact path="/ForgetPasscode">
+                <Forgetpass_code />
+          </Route>
+          <Route path="/Customer_signup"> 
+              <CustomerSignup/>
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />

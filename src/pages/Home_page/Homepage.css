@@ -108,14 +108,13 @@ overflow: hidden;
   margin: 20px;
  }
 
-.FOOTER{
-  /* background: rgba(14, 18, 37, 0.8); */
-  background: rgba(203, 206, 220, 0.8);
+/* .FOOTER{
+  background: rgba(14, 18, 37, 0.8);
   mix-blend-mode: normal;
   height: 300px;
- color: #fff;
- font-size: 18px;
-}
+  color: #fff;
+  font-size: 18px;
+} */
 
 
 .footercols{

@@ -3,7 +3,8 @@ import App from "./../../Component/App/App.css"
 import { FaShoppingCart,FaUser,FaSearch  } from "react-icons/fa";
 import {Link} from 'react-router-dom'
 function NAVBAR(){
-  const list = ['فروشگاه ','استوک','مردانه'];
+  const list = ['استوک','مردانه'];
+  const list1 = ['فروشگاه']
   
   return(
     <>
@@ -28,8 +29,11 @@ function NAVBAR(){
   </div>
   <div className="NAV2">
   <ul>
-  {list.map((item,index)=> <li key={index}>{item}</li>)}
+  {list.map((item,index)=> <li key={index}><button>{item}</button></li>)}
+  {list1.map((item,index)=> <li key={index}><Link to="Shop"><button>{item}</button></Link></li>)}
+
   </ul>
+  
   </div>
 
 </div>
