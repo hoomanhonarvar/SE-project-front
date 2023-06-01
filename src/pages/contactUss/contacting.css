@@ -1,22 +1,35 @@
-.forgetPassword:hover{
-    color: red;
-    border: none;
-    background-color:#0E1225;
-}
+
 .forgetPassword{
-    border: none;
-    background-color: #0E1225;
+    border-bottom: 0.5px solid #666;
+    color: #666;
 }
+
+
 .loginbtn{
     background-color: #08A06E;
-
+    font-size: 22px!important;
 }
+
 .card{
     --bs-card-border-width: 3px;
 }
 .btn-lg{
     --bs-btn-padding-x: 8rem;
 }
+.mb-5{
+    color: #333;
+}
 
+label{
+    display: block;
+    margin: 20px;
+}
 
+.input-group{
+display: block;
+}
 
+input, textarea { 
+    unicode-bidi:bidi-override; 
+    direction: RTL; 
+   }

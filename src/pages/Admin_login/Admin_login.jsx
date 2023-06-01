@@ -13,24 +13,25 @@ const Admin_login=()=>{
             <div className="col-12 col-md-8 col-lg-6 col-xl-5">
               <div className="card shadow-2-strong" style={{borderRadius: '1rem'}}>
                 <div className="card-body p-5 text-center">
-                  <h3 className="mb-5">Admin login</h3>
+                  <h3 className="mb-5">ورود ادمین</h3>
                   <div className="form-outline mb-4">
+                  <label className="form-label" for="tel">شماره تماس</label>
+
                     {PhonenumberFrom()}
-                    <label className="form-label" for="tel">Phone number</label>
                   </div>
                   <div className="form-outline mb-4">
                     <div className="input-group">
-                    <input type='password' id="password" className="form-control form-control-lg" />
-                    <button className="btn btn-outline-primary" onClick={ShowAndHidePassword}></button>
+                    <label className="form-label" for="password">رمز عبور</label>
+
+                    <input type="password" name="" id="" className="inp" />
+                    {/* <button className="btn btn-outline-primary" onClick={ShowAndHidePassword}></button> */}
                     </div>
-                    <label className="form-label" for="password">Password</label>
                   </div>
-                  <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">Login</button>
+                  <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">ورود</button>
                   <div>
                       <p></p>
                       <button type="submit" id="forgetPassword" className="forgetPassword">
-                        Forget password?
-                      </button>
+فراموشی رمز عبور  </button>
                   </div>
                 </div>
               </div>

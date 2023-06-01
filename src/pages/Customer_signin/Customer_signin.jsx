@@ -9,19 +9,17 @@ function CustomerSignin(){
 
 
 return(<>
-
-<div style={{backgroundColor: "white"}}>
-
+<div className="total">
+<div  style={{backgroundColor: "white"}}>
 <div className="Formbox">
 
-  
   <div className="boxformation">
   
 <form className="signupdet">
 <div className="LOGOFORFORM">
   <img src={logo} style={{width: "370px", borderRadius: "10px", height: "170px"}}/>
   <div className="mb-3">
-  <label htmlFor="ID">email</label>
+  <label htmlFor="ID">پست الکترونیک</label>
   <br></br>
   <input id="ID3" className="Formcontrol" type="email" />
   <br></br><br></br>
@@ -73,7 +71,7 @@ return(<>
 <div style={{backgroundColor: "white"}}>
 
 <Link to ="/ForgetPass">
-<button type="button" class="btn btn-primary" >فراموشی رمز عبور</button>
+<button type="button" class="btn btn-primary " >فراموشی رمز عبور</button>
 </Link>
 </div>
 
@@ -81,8 +79,12 @@ return(<>
 </div>
 </div>
 
+
+</div>
+
 <div className="Colorbox"></div>
 </div>
+
 </>)
 
 }

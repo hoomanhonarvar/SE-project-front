@@ -20,23 +20,44 @@ const Admindashboard = () => {
         <MdOutlineNotificationsActive className="notifications" />
         <IoEllipseSharp className="ellipse" />
       </div>
-      <ColumnChart />
+
+     
+     
+       <div className="panel"><div className="main">
+        <div className="row-1">
+        <ColumnChart />
       <img src={inbox} className="inbox" />
       <img src={empty} className="empty" />
-      <TbRectangleFilled className="rectangle" />
-      <div className="sidebar">
+        </div>
+        <div className="row-2">      <TbRectangleFilled className="rectangle" /></div>
+        </div>
+        
+
+
+
+
+
+
+
+        <div className="sidebar">
         <BsPersonCircle className="person" />
         <h3 className="name">ادمین</h3>
         <button className="edit">ویرایش</button>
         <div className="buttonList">
           <Button>داشبورد</Button>
-          <Button className="btn2">فعالیت ها</Button>
-          <Button className="btn3">برنامه ها</Button>
-          <Button className="btn4">تنظیمات</Button>
+          <Button className="btn">فعالیت ها</Button>
+          <Button className="btn">برنامه ها</Button>
+          <Button className="btn">تنظیمات</Button>
           <img src={datkMode} className="darkmode" />
         </div>
       </div>
+
+
     </div>
+        </div>
+      
+
+     
   );
 };
 

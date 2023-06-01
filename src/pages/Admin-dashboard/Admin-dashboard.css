@@ -1,7 +1,4 @@
-body {
-  bottom: 500px;
-  background-color: #0e1225;
-}
+
 
 .chart {
   position: absolute;
@@ -92,11 +89,10 @@ body {
 }
 
 .person {
-  position: absolute;
+
   width: 100px;
   height: 100px;
-  top: 127px;
-  right: 50px;
+
   border-radius: 60px;
 
   /* gray-blue 03 */
@@ -104,13 +100,12 @@ body {
   background: #cacfeb;
 }
 .sidebar {
-  position: absolute;
-  width: 197px;
-  height: 885px;
-  left: 1226px;
-  top: 73px;
-  border: 0.5px solid white;
-  border-radius: 10px;
+ 
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .name {
   position: absolute;
@@ -175,4 +170,18 @@ body {
     position: absolute;
     width: 90px;
     height: 43px;
+}
+
+.panel{
+  display: flex !important;
+background-color: #0e1225;
+}
+
+
+
+.buttonList{
+
+display: flex;
+
+
 }

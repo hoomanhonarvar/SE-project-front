@@ -29,8 +29,6 @@ return(<>
 <div className="LOGOFORFORM">
 
 </div>
-
-
 <div className="Details">لطفا جهت بازیابی رمز عبور، پست الکترونیک خود را وارد کنید</div>
 <div className="mb-4">
 
@@ -46,7 +44,6 @@ return(<>
 <Link to ="/ForgetPasscode">
 <button type="submit" class="btn btn-primary">ثبت</button>
 </Link>
-
 </form>
 </div>
 </div>

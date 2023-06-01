@@ -13,23 +13,31 @@ const Contating=()=>{
             <div style={{margin:"30px"}} className="col-11 col-md-8 col-lg-6 col-xl-5" >
               <div className="card shadow-2-strong" style={{borderRadius: '1rem'}}>
                 <div className="card-body p-5 text-center">
-                  <h3 className="mb-5">تماس با ما</h3>
+                  <h4 className="mb-5">تماس با ما</h4>
                   <div className="form-outline mb-4">
-                    <div className="input-group">
-                    <input type="text" id="Name" style={{textAlign:'end'}} className="form-control form-control" />
-                    <button className="btn btn-outline-primary"  style={{fontSize:'16px'}}  >نام</button>
+                
+                  </div>
+
+                  <div className="form-outline mb-4">
+
+                  <div className="input-group">
+                  <label htmlFor="" className="inplabel">نام و نام خانوادگی</label>        
+                    <br />
+                    <input type="text" id="Name"  className="form-control form-control" />
+
                     </div>
+                    <div className="input-group"> 
+                    <label htmlFor="" className="inplabel">شماره تماس</label>                 
+                      <br />
+                    <input type="text" id="Name"  className="form-control form-control" />
                   </div>
                   <div className="form-outline mb-4">
                     <div className="input-group">
-                    <input type='text' id="Email" style={{textAlign:'end'}}  className="form-control form-control" />
-                    <button className="btn btn-outline-primary"  style={{fontSize:'16px'}}  >ایمیل</button>
-                    </div>
-                  </div>
-                  <div className="form-outline mb-4">
-                    <div className="input-group">
-                    <textarea type='text' id="texteraia" rows={5} style={{textAlign:'end'}}  className="form-control form-control" />
-                    <button className="btn btn-outline-primary" style={{fontSize:'16px'}} >پیام</button>
+                    <label htmlFor="" className="inplabel">پیام</label>
+                      <br />
+                    <textarea type='text' id="texteraia" rows={5}  className="form-control form-control" />
+
+
                     </div>                    
                     </div>
                   <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">ارسال</button>
@@ -39,6 +47,7 @@ const Contating=()=>{
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
