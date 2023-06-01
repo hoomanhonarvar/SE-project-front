@@ -10,6 +10,7 @@ import ForgetPasswors from '../../pages/ForgetPassword/ForgetPass';
 import ForgetPasswors2 from '../../pages/ForgetPassword/FrogetPassword2';
 import Customer_panel from '../../pages/Customer_panel/Admin-dashboard';
 
+
 import {
   BrowserRouter,
   Route,
@@ -21,6 +22,7 @@ import Admindashboard2 from '../../pages/Customer_panel/Admin-dashboard';
 import Confriming from '../../pages/ForgetPassword/Confrimcode';
 import Cart from '../../pages/Cart/Cart';
 import Customerpanel1 from '../../pages/Customer_panel/CustomerPanel';
+import Abouter from '../../pages/About_u/About_usss';
 function App() {
   return (
     <div className="App">
@@ -33,6 +35,9 @@ function App() {
           </Route>
           <Route path='/customerpanel'>
             <Customerpanel1 />
+          </Route>
+          <Route path='/aboutus'>
+            <Abouter />
           </Route>
           <Route path='/Admin-login'>
             <Admin_login />
