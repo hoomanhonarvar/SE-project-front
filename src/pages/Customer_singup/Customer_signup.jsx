@@ -6,7 +6,6 @@ import FormComponent from "../../Component/Forms/Email_validation"
 import Submit from "../../Component/Submit/Submit_signup";
 import {Link} from 'react-router-dom'
 import { useState } from "react";
-import { Axios } from "axios";
 function CustomerSignup(){
 const[email,setEmail]=useState("");
 const [password,setPassword]=useState("");
