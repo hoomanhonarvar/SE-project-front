@@ -10,7 +10,7 @@ import  { useState } from 'react';
     var element1 = document.getElementById('ID3').value;
     var element3 = document.getElementById('ID1').value;
     var element2 = document.getElementById('ID2').value;
-    const json=
+    const JSON=
     {
         "phone number ": element2,
         "password":element3,
@@ -19,7 +19,8 @@ import  { useState } from 'react';
 
     }
     
-    console.log(json)
+    
+    console.log(JSON)
     
 
     

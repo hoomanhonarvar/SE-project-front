@@ -2,6 +2,7 @@ import React from "react";
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 import Customersignin from "../../pages/Customer_signin/Customer_signin";
+import Exp from "../request/Post/example";
 const Navbar =()=>
 (
     <ul className="Navbar">
@@ -9,6 +10,14 @@ const Navbar =()=>
             <Link to="/Admin-login">
                 <button>
                     Admin-login
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link to="/123">
+                <button>
+                    Exp
                 </button>
             </Link>
             

@@ -24,6 +24,7 @@ import Shop from '../../pages/Shop/Shop';
 import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
 import Forgetpass_code from '../../pages/Forget_password/Forget_password_codes';
 import Forgetpass from '../../pages/Forget_password/Forget_password';
+import Exp from '../request/Post/example';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,9 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home_page />
+          </Route>
+          <Route exact path='/123'>
+            <Exp/>
           </Route>
           <Route exact path='/Shop'>
             <Shop/>
