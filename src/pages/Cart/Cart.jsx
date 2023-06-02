@@ -2,7 +2,7 @@ import React from "react";
 import tarsh from './button/icons8-trash-30.png';
 import heart from './button/icons8-heart-30.png';
 
-
+import "./Cart.css"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Sidebar } from "@coreui/coreui";
@@ -42,7 +42,7 @@ const Cart=()=>{
           </div>
           
           </div>
-          <div>تخفیف اعمال شد</div>
+      
           
           <div  className="mt-3 " >
           <hr />
@@ -88,7 +88,7 @@ const Cart=()=>{
 
 
 
-          <div className="col-md-8 col-xs-12 col-sm-10"  style={{direction:"rtl",backgroundColor:'#FBFBFF'}} >
+          <div id="cart-products"className="col-md-8 col-xs-12 col-sm-10"  style={{direction:"rtl",backgroundColor:'#FBFBFF'}} >
           <div className="w-4/4 px-10 py-10" style={{backgroundColor:'#FBFBFF'}}>
           <div className="flex justify-between border-b pb-8">
             <h1 className="font-semibold text-2xl">سبد خرید</h1>

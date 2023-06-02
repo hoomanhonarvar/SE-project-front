@@ -1,0 +1,73 @@
+.frame-1{
+  width: 100%;
+  display: flex;
+ justify-content: space-around;
+ margin: 50px 0px;
+}
+.purch{
+margin-left: 20px;
+}
+.product-gallery{
+width: 100%;
+}
+
+.Info{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+  
+.main{
+  direction: rtl;
+}
+  
+
+.Details{
+ 
+}
+
+
+.ProductIdCard{
+  color: black;
+}
+.Second-Section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  background-color: #FBFBFF;
+  border-radius: 20px;
+  margin: 50px;
+
+}
+
+.joziat{
+  color: #777;
+  border-top: .5px #aaa solid;
+  padding: 20px;
+}
+
+.DetailsOfP{
+
+  padding: 20px;
+}
+
+#Lb{
+  color: #4F8F84;
+  border-bottom: #4F8F84 1px solid;
+  padding: 10px;
+  margin: 0px;
+}
+
+.textbox{
+  padding: 20px;
+  margin: 20px;
+
+}
+
+
+#coment{
+  border-radius: 20px;
+}

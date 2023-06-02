@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./SignUpDetails.css"
+import  "./SignUpDetails.css"
 import "../../Component/App/App.css"
 function SignUp_Details(){
 
@@ -13,7 +13,7 @@ return(<>
 <div className="LOGOFORFORM"></div>
 <div className="mb-3">
   <label htmlFor="Name&FamilyName">نام و نام خانوادگی</label>
-  <input id="Name&FamilyName" className="Formcontrol" type="text" />
+  <input id="Name" dir="rtl" className="Formcontrol" type="text" />
 </div>
 
 <div className="mb-3">

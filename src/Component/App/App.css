@@ -8,4 +8,9 @@
   font-family: yekan;
   border: 0px;
   font-size: 20px;
+
+}
+
+input{
+  direction: ltr ;
 }

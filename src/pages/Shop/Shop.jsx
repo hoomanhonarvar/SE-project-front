@@ -48,13 +48,11 @@ const Shop=()=>{
                         <input type={'checkbox'} name={'men'}></input>
                         <label for='men' style={{marginRight:'5px'}}>زن</label>                        <br></br>
                     </div>
-                    <br></br>
                     <hr className='horizontal-line'/>
                     <div className='brand'>
                         <p className='w3-bar-item'>برند</p>
                         <input type={'checkbox'} name={'men'}></input>
                         <label for='men' style={{marginRight:'5px'}}>نایکی</label>
-                        <br></br>
                         <input type={'checkbox'} name={'men'}></input>
                         <label for='men' style={{marginRight:'5px'}}>آدیداس</label>                        <br></br>
                         <input type={'checkbox'} name={'men'}></input>

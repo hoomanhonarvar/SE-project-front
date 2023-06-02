@@ -62,3 +62,10 @@ overflow: hidden;
   .FOOTER{
     background-color: white;
   }
+
+
+
+#Name{
+ direction: rtl !important;
+}
+

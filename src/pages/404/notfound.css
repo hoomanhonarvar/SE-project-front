@@ -3,6 +3,7 @@
 .body404 {
   background-color: #0E1225;
   height: 32.5rem;
+
 }
 @keyframes darken {
   00%{ font-size: 6rem;  color:#e0e3e5;}

@@ -7,13 +7,14 @@ import image3 from "./user.png";
 import datkMode from "../../Component/Button/dark&brightMode.png";
 import {Link} from 'react-router-dom'
 import "./CustomerPanel.css"
+import TrackingOrder from "./TrackingOrder";
 const Coutomrtpanel=()=>{
-    document.body.style.backgroundColor = "#0e1225";
     return(
-      <div className="row" style={{padding:'20px'}}>
+      <dvi className="row-0" style={{padding:'20px'}}>
         <div style={{direction:'rtl'}} className="col-md-10">
+
             <div className="input-group">   
-                <input type="text" className="" style={{backgroundColor:'#0e1225',borderRadius:'20px',marginRight:'20%'}} placeholder="جستجو کنید" />
+                <input type="text" className="" style={{backgroundColor:'#0e1225',borderRadius:'20px',color:'white',marginRight:'20%'}} placeholder="جستجو کنید" />
                 <IoSearch style={{fontSize:'35px',color:'whitesmoke'}}/>
                 <button style={{background:"none",marginRight:"35%"}} >
                        <img src={img2} alt="image" />
@@ -22,39 +23,41 @@ const Coutomrtpanel=()=>{
                     <img src={Image01} alt="image" />
                 </button>   
             </div>
+
+
+            <TrackingOrder />
+
+
         </div>
         <div className="col-md-2" style={{direction:'rtl',borderLeft:'inset'}}>
-            <div className="container">
-                <div className="container">
+            <div className="container-1">
+                <div className="container-1">
             <button style={{background:"none"}} >
-            <img style={{width:'65%',marginBottom:'5%',paddingTop:'20%'}} src={image3} alt="image" />
+            <img style={{width:'35%',marginBottom:'5%',paddingTop:'20%'}} src={image3} alt="image" />
             <br />
             <h5 style={{color:'white',fontSize:'32px',margin:'10px 0px'}}>مشتری</h5>
             </button>
-            <button type="button" style={{ padding:"10px !important",display:'block',color:'white',fontSize:'20px',backgroundColor:'#363946'}} cxlass="btn btn-outline-dark bt">ویرایش</button>
+            <button type="button" style={{ display:'block',color:'white',fontSize:'20px',backgroundColor:'#363946',  padding:'5px 0px',width:'50%' , borderRadius:'15px'}} cxlass="btn btn-outline-dark bt">ویرایش</button>
             </div>
             </div>
-            <br />
-            <br />
-            <br />
      
             <div className="buttons-list">
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
-                داشبورد
+            داشبورد
             </button>
       
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
-                فعالیت ها
+            سفارش ها 
             </button>
            
             <Link to ="/SignUpDetails">
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
-                تکمیل اطلاعات شخصی
+             تکمیل اطلاعات فردی
             </button>
             </Link>
             
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
-                تنظیمات
+            تنظیمات
             </button>
             </div>
          
@@ -68,7 +71,7 @@ const Coutomrtpanel=()=>{
         </div>   
         
        
-      </div>
+      </dvi>
     );
 
 

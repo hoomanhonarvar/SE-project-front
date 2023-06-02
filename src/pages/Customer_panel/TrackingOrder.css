@@ -1,0 +1,26 @@
+.otd{
+
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.otdcd{
+
+  background-color: #0023C3 ;
+  opacity:80%;
+  padding:  20px 50px ;
+  margin: 0px 10px;
+  border-radius: 1rem;
+
+}
+
+
+.inputs{
+  width: 40%;
+  border-radius: 1rem;
+  padding: 20px;
+}

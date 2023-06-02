@@ -7,10 +7,9 @@ import Submit from "../../Component/Submit/Submit_signin";
 import {Link} from 'react-router-dom'
 function CustomerSignin(){
 
-
 return(<>
 <div className="total">
-<div  style={{backgroundColor: "white"}}>
+<div  className="subtotal" style={{backgroundColor: "white"}}>
 <div className="Formbox">
 
   <div className="boxformation">
@@ -20,23 +19,23 @@ return(<>
   <img src={logo} style={{width: "370px", borderRadius: "10px", height: "170px"}}/>
   <div className="mb-3">
   <label htmlFor="ID">پست الکترونیک</label>
-  <br></br>
+
   <input id="ID3" className="Formcontrol" type="email" />
-  <br></br><br></br>
+
 </div>
 
 
 </div>
 <div className="mb-3">
 <label htmlFor="ID">شماره تلفن همراه</label>
-<br></br>
+
   {PhonenumberFrom()}
 </div>
 
 
 <div className="mb-3">
   <label htmlFor="ID">رمز عبور</label>
-  <br></br>
+
   <input id="ID1" className="Formcontrol" type="password" />
 </div>
 
