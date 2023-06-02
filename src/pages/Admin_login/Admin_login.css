@@ -1,11 +1,10 @@
-.forgetPassword:hover{
-    color: red;
-    border: none;
-    background-color:#ffffff;
+
+*:focus {
+    outline: none;
 }
 .forgetPassword{
-    border: none;
-    background-color: #ffffff;
+    padding: 10px;
+    background-color: #fff;
 }
 .loginbtn{
     background-color: #08A06E;
@@ -16,5 +15,13 @@
 }
 .btn-lg{
     --bs-btn-padding-x: 8rem;
+}
+
+.inp{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
 }
 

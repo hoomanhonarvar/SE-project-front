@@ -14,33 +14,56 @@ const Navbar =()=>
             
         </li>
         <li>
-            <Link to="/Customer_signin">
+            <Link to="/Shop">
                 <button>
-                    Customer sign in
+                    Shop
                 </button>
             </Link>
+            
+        </li>
+       
+        <li>
+            <Link to="/Cart">
+                <button>
+                    Cart
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link exact path to='/pardakht_movafagh'>
+                <button>
+                Pardakhtmovafagh
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link exact path to="/Pardakht_namovafagh">
+                <button>
+                Pardakhtnamovafagh
+                </button>
+            </Link>
+            
+        </li>
+        <li>
+            <Link to="/Customer_Panel">
+                <button>
+                    Customer_panel
+                </button>
+            </Link>
+            
         </li>
         <li>
             <Link to="/">
                 home
             </Link>
         </li>
-        <li>
-            <Link to ="/SignUpDetails">
-                SignUpDetails
-            </Link>
-        </li>
+        
         <li>
             <Link to="/Admin_dashboard">
                 <button>
                     Admin-dashboard
-                </button>
-            </Link>
-        </li>
-        <li>
-            <Link to="/Shop">
-                <button>
-                    Shop
                 </button>
             </Link>
         </li>

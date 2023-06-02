@@ -1,4 +1,4 @@
-import FOOTER from '../../Component/FOOTER/FOOTER'
+import FOOTER from '../Home_page/FOOTER';
 import { IoHeadsetOutline } from 'react-icons/io5'; 
 import { IoCartOutline } from 'react-icons/io5';
 import { IoNotificationsOutline } from 'react-icons/io5';

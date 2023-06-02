@@ -2,15 +2,22 @@
     display: inline-block;
     width: 50%;
     float: left;
-    background: linear-gradient(151.79deg, rgba(69, 79, 125, 0.85) 0%, rgba(8, 160, 110, 0.85) 81.25%);
-    height: 100vh;
-  }
+     background: linear-gradient(151.79deg, rgba(69, 79, 125, 0.85) 0%, rgba(8, 160, 110, 0.85) 81.25%);
+    flex: 1;
+              }
   
+.panel{
+display: flex;
+flex-direction: row-reverse;
+align-items: stretch;
+overflow: hidden;
+}
+
   .Formbox {
-    width: 50%;
     margin: auto;
-    height: 100vh;
     display: inline-block;
+    text-align: right;
+
   }
   
   .Formcontrol {
@@ -25,12 +32,14 @@
   
   .mb-3 {
     font-size: 16px;
+    color: #555;
   }
   
   .btn-primary {
     background: rgba(8, 160, 110, 0.8);
     border-radius: 15px;
     width: 370px;
+    margin: 20px;
   }
   
   .boxformation {
@@ -39,6 +48,7 @@
     justify-content: center;
     align-content: center;
     background-color: white;
+    flex: 1;
   }
   
   .LOGOFORFORM {

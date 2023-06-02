@@ -1,6 +1,6 @@
 import React from "react";
 import NAVBAR from "./NAVBAR";
-import FOOTER from "../../Component/FOOTER/FOOTER";
+import FOOTER from "./FOOTER";
 import HOME from "./Homepage";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,7 +8,9 @@ import HOME from "./Homepage";
 
 const Home_page=()=>{
   return(<>
-   <HOME/>
+ 
+  <NAVBAR/>
+  <HOME/>
   <FOOTER/>
   </>);
 }

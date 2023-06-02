@@ -13,6 +13,17 @@
   display: inline-block;
 }
 
+.btn{
+
+  margin: 10px 0px !important;
+}
+
+
+.total{
+  display: flex;
+  flex-direction:row-reverse;
+}
+
 .Formcontrol {
   border: 0.5px solid #ddd;
   border-radius: 15px;

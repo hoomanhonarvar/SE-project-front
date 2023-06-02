@@ -1,0 +1,46 @@
+
+
+* {
+  font-family: yekan;
+  border: 0px;
+  font-size: 20px;
+}
+
+label{
+display: block;
+margin:20px 0px;
+
+
+}
+
+input{
+padding: 0px 5px;
+
+}
+ 
+.Details {
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+
+.character {
+  border: 0.5px solid #bbb;
+  font-size: 20px;
+  width: 28px;
+  border-radius: 8px;
+  color: #272729;
+  background-color: #fff;
+}
+
+
+.container{
+
+  margin: 0px 38px;
+
+}
+
+
+.boxformation{
+  height: 100vh !important;
+}
