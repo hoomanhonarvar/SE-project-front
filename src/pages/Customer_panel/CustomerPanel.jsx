@@ -8,8 +8,9 @@ import datkMode from "../../Component/Button/dark&brightMode.png";
 import {Link} from 'react-router-dom'
 import "./CustomerPanel.css"
 const Coutomrtpanel=()=>{
+    document.body.style.backgroundColor = "#0e1225";
     return(
-      <dvi className="row" style={{padding:'20px'}}>
+      <div className="row" style={{padding:'20px'}}>
         <div style={{direction:'rtl'}} className="col-md-10">
             <div className="input-group">   
                 <input type="text" className="" style={{backgroundColor:'#0e1225',borderRadius:'20px',marginRight:'20%'}} placeholder="جستجو کنید" />
@@ -67,7 +68,7 @@ const Coutomrtpanel=()=>{
         </div>   
         
        
-      </dvi>
+      </div>
     );
 
 
