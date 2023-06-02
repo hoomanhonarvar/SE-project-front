@@ -35,21 +35,26 @@ const Admindashboard=()=>{
             <br />
      
             <div className="buttons-list">
+            <Link to='/Admin_dashboard'>
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
                 داشبورد
             </button>
-      
+            </Link>
+            <Link to ="/Activities">
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
                 فعالیت ها
             </button>
-           
+            </Link>
+            <Link to='/Admin_dashboard'>
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
                 برنامه ها
             </button>
-            
+            </Link>
+            <Link to='/Admin_dashboard'>
             <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
                 تنظیمات
             </button>
+            </Link>
             </div>
          
 

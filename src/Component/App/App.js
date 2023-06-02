@@ -15,7 +15,7 @@ import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
 import CustomerSignup from '../../pages/Customer_singup/Customer_signup';
 import Contating from '../../pages/contactUss/contact';
-// import Admindashboard from './../../pages/Admin-panel/Admin-dashboard';
+import Activities from './../../pages/Admin-dashboard/Activities/Activities'
 import Cart from '../../pages/Cart/Cart';
 import NotFound from '../../pages/404/NotFound';
 import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
@@ -75,6 +75,9 @@ function App() {
           </Route>
           <Route path="/Admin_dashboard">
               <Admindashboard />
+          </Route>
+          <Route path="/Activities">
+              <Activities />
           </Route>
           <Route exact path='/*'>
             <NotFound />
