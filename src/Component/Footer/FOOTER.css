@@ -1,0 +1,14 @@
+.FOOTER{
+    background: rgba(14, 18, 37, 0.8) !important;
+    height: 300px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+.footercols{
+  float: right;
+display: inline-block;
+padding: 20px;
+margin: 20px;
+background-color: rgba(14, 18, 37, 0.8) !important;
+}

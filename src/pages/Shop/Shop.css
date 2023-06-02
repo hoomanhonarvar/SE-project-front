@@ -1,0 +1,79 @@
+
+.Header{
+    background-color: #fff;
+}
+.Icons{
+    margin-top : 15px;
+    background-color: #fff;
+    border-left: 2px solid #9BA0B5CC;
+    margin-left: 251px;
+    height : 72px;
+}
+.Icon{
+    margin-left: 10.29px;
+    color: #323232af;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #1b1c2266;
+    border-radius: 8px;
+    margin-top: 17px;
+}
+
+
+.input-field{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #1b1c2266;
+    border-radius: 28px;
+    margin-left: 627px;
+    width: 356px;
+    position: absolute;
+    z-index: 1;
+}
+
+.search-icon{
+    width: 32px;
+    height: 32px;
+    margin-left: 945px;
+    margin-top: 7px;
+    border: transparent;
+    background-color: transparent;
+    z-index: 3;
+    position: absolute;
+}
+.horizontal-line{
+    border: gray solid 1px;
+}
+
+.total{
+    background-color: white;
+}
+.search-result{
+    background-color: #fff;
+    direction: rtl;
+    margin-right: 317px;
+}
+.Sidebar{
+    background-color: white;
+    width: 316px;
+    margin-left: 1372px;
+    margin-top: -51px;
+    position: absolute;
+    border: solid gray 1px;
+    height: 2000px;
+    direction: rtl;
+    border-color: transparent;
+    border-left: 1px solid #9BA0B5CC;
+}
+.w3-bar-item{
+    direction: rtl;
+}
+.Footer{
+    margin-top:2000px
+}
+.category{
+    margin-right: 10px;
+}
+.gender{
+    margin-right: 10px;
+}

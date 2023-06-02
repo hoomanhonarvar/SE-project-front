@@ -1,0 +1,187 @@
+
+
+.chart {
+  position: absolute;
+  width: 305px !important;
+  height: 305px !important;
+  left: 830px !important;
+  top: 170px !important;
+  border-radius: 40px;
+}
+.inbox {
+  position: absolute;
+  width: 305px;
+  height: 305px;
+  left: 70px;
+  top: 243px;
+  border-radius: 40px;
+}
+.empty {
+  position: absolute;
+  width: 305px;
+  height: 305px;
+  left: 449px;
+  top: 243px;
+  border-radius: 40px;
+}
+.headers {
+  position: absolute;
+  width: 811px;
+  height: 50px;
+  left: 49px;
+  top: 84px;
+}
+.searchIcon {
+  color: white;
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 830px;
+  top: 0px;
+}
+.searchForm {
+  position: absolute;
+  width: 592px;
+  height: 28px;
+  left: 180px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: right;
+  color: rgba(155, 160, 181, 0.8);
+  background-color: #0e1225;
+}
+.notifications {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 49px;
+  top: -10px;
+  color: rgba(155, 160, 181, 0.8);
+}
+
+.ellipse {
+  color: orange;
+
+  position: absolute;
+  left: 10%;
+  right: -2%;
+  top: -50%;
+  bottom: 82%;
+}
+.rectangle {
+  position: absolute;
+  width: 1067px;
+  height: 140px;
+  left: 68px;
+  top: 598px;
+  /* gray-blue 04 */
+
+  background: #eef1fc;
+  border-radius: 35px;
+  color: #eef1fc;
+}
+
+.person {
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 60px;
+
+  /* gray-blue 03 */
+  color: black;
+  background: #cacfeb;
+}
+.sidebar {
+ 
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.name {
+  position: absolute;
+  width: 197px;
+  height: 46px;
+  left: 83px;
+  top: 243px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  /* or 89% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.edit {
+  position: absolute;
+  width: 42px;
+  height: 22px;
+  left: 78px;
+  top: 292px;
+  border: 0.5px solid;
+  border-color: #eef1fc;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 16px;
+  /* identical to box height, or 200% */
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #0e1225;
+  color: white;
+}
+
+.buttonList{
+    margin-top: 500px;
+}
+
+.btn2{
+    margin-top: 55px;
+}
+.btn3{
+    margin-top: 110px;
+}
+.btn4{
+    margin-top: 165px;
+}
+.darkmode{
+    margin-top:300px;
+    margin-left: 55px;
+    position: absolute;
+    width: 90px;
+    height: 43px;
+}
+
+.panel{
+  display: flex !important;
+background-color: #0e1225;
+}
+
+
+
+.buttonList{
+
+display: flex;
+
+
+}

@@ -1,0 +1,20 @@
+.col-md-6{
+  display: flex;
+  flex-direction: column;
+}
+
+#summary{
+
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+.row{
+  box-shadow: none;
+}
+
+#cart-products{
+box-shadow: none;
+border-radius: 1rem;
+
+}
