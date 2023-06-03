@@ -25,6 +25,7 @@ import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
 import Forgetpass_code from '../../pages/Forget_password/Forget_password_codes';
 import Forgetpass from '../../pages/Forget_password/Forget_password';
 import Edit_order from '../../pages/Admin-dashboard/Activities/edit-order/edit-order';
+import Aboutus from '../../pages/aboutus/AboutUs';
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,9 @@ function App() {
           
           <Route exact path='/Cart'>
             <Cart/>
+          </Route>
+          <Route path='/AboutUs'>
+            <Aboutus/>
           </Route>
           <Route exact path='/Customer_Panel'>
             <Coutomrtpanel />
