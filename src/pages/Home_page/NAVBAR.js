@@ -11,9 +11,11 @@ function NAVBAR(){
 
 <div className="NAVBAR">
   <div id="NAV1-icons" >
+    <Link to ="/cart">
     <div className="ICONS">
     <FaShoppingCart/>
     </div>
+    </Link>
     <div className="ICONS">
     <FaSearch/>
     </div>
