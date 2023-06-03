@@ -29,6 +29,7 @@
     width: 356px;
     position: absolute;
     z-index: 1;
+    direction: rtl;
 }
 
 .search-icon{
@@ -46,12 +47,10 @@
 }
 
 .total{
-    background-color: white;
+    background-color: transparent !important;
 }
 .search-result{
-    background-color: #fff;
-    direction: rtl;
-    margin-right: 317px;
+    margin-left: 70%;
 }
 .Sidebar{
     background-color: white;

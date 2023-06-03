@@ -22,6 +22,7 @@ const Edit_order = () => {
               borderRadius: "20px",
               marginRight: "20%",
               color: "white",
+              direction:"rtl"
             }}
             placeholder="جستجو کنید"
           />
@@ -57,6 +58,7 @@ const Edit_order = () => {
               type="text"
               class="input-with-icon"
               id="form-name"
+              style={{direction:'rtl'}}
               placeholder="جستجو بر اساس شماره محصول،دسته بندی و...."
             />
           </div>
@@ -83,7 +85,7 @@ const Edit_order = () => {
                 <option value={"salon"}>سالن</option>
                 <option value={"women"}>زنانه</option>
                 <option value={"men"}>مردانه</option>
-                <option value={"children"}>بچگانه</option>
+                <option value={"children"}>استوک</option>
               </select>
               <label for="gender" style={{ marginRight: "5px", color: "#ddd", fontSize: "16px" }}>جنسیت</label>
               <select
@@ -92,7 +94,7 @@ const Edit_order = () => {
               >
                 <option value={""}></option>
                 <option value={"female"}>زنانه</option>
-                <option value={"male"}>زنانه</option>
+                <option value={"male"}>مردانه</option>
               </select>
               <label for="brand" style={{ marginRight: "5px", color: "#ddd", fontSize: "16px" }}>برند</label>
               <select
@@ -233,7 +235,7 @@ const Edit_order = () => {
             <button
               type="button"
               class="btn btn-secondary  btn-block BT"
-              style={{ backgroundColor: "#363946", width: "80%" }}
+              style={{ backgroundColor: "#363946", width: "100%" }}
             >
               داشبورد
             </button>
@@ -242,7 +244,7 @@ const Edit_order = () => {
             <button
               type="button"
               class="btn btn-secondary  btn-block BT"
-              style={{ backgroundColor: "#363946", width: "80%" }}
+              style={{ backgroundColor: "#363946", width: "100%" }}
             >
               فعالیت ها
             </button>
@@ -251,7 +253,7 @@ const Edit_order = () => {
             <button
               type="button"
               class="btn btn-secondary  btn-block BT"
-              style={{ backgroundColor: "#363946", width: "80%" }}
+              style={{ backgroundColor: "#363946", width: "100%" }}
             >
               برنامه ها
             </button>
@@ -260,7 +262,7 @@ const Edit_order = () => {
             <button
               type="button"
               class="btn btn-secondary  btn-block BT"
-              style={{ backgroundColor: "#363946", width: "80%" }}
+              style={{ backgroundColor: "#363946", width: "100%" }}
             >
               تنظیمات
             </button>

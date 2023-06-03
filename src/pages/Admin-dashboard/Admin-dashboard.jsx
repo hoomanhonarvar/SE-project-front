@@ -12,7 +12,7 @@ const Admindashboard=()=>{
       <div className="row" style={{padding:'20px'}}>
         <div style={{direction:'rtl'}} className="col-md-10">
             <div className="input-group">   
-                <input type="text" className="" style={{backgroundColor:'#0e1225',borderRadius:'20px',marginRight:'20%'}} placeholder="جستجو کنید" />
+                <input type="text" className="" style={{backgroundColor:'#0e1225',borderRadius:'20px',marginRight:'20%' ,direction:"rtl" , color:"white"}} placeholder="جستجو کنید" />
                 <IoSearch style={{fontSize:'35px',color:'whitesmoke'}}/>
                 <button style={{background:"none",marginRight:"35%"}} >
                        <img src={img2} alt="image" />
@@ -36,22 +36,22 @@ const Admindashboard=()=>{
      
             <div className="buttons-list">
             <Link to='/Admin_dashboard'>
-            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
+            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'100%'}}>
                 داشبورد
             </button>
             </Link>
             <Link to ="/Activities">
-            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
+            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'100%'}}>
                 فعالیت ها
             </button>
             </Link>
             <Link to='/Admin_dashboard'>
-            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
+            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'100%'}}>
                 برنامه ها
             </button>
             </Link>
             <Link to='/Admin_dashboard'>
-            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'80%'}}>
+            <button type="button" class="btn btn-secondary  btn-block BT" style={{backgroundColor:'#363946',width:'100%'}}>
                 تنظیمات
             </button>
             </Link>

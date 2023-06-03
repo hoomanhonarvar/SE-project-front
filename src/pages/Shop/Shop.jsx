@@ -23,7 +23,7 @@ const Shop=()=>{
             </div>
             <div className='total'>
                 <div className='search-result'>
-                    <p>نتیجه جستجو :</p>
+                    <p style={{direction:'rtl'}}>نتیجه جستجو :</p>
                 </div>
                 <div className="w3-sidebar w3-bar-block Sidebar">
                     <div className='category'>
