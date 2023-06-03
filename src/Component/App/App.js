@@ -15,7 +15,7 @@ import Admindashboard from "./../../pages/Admin-dashboard/Admin-dashboard"
 import SignUp_Details from '../../pages/SignUpDetails/SignUpDetails';
 import CustomerSignup from '../../pages/Customer_singup/Customer_signup';
 import Contating from '../../pages/contactUss/contact';
-// import Activities from './../../pages/Admin-dashboard/Activities/Activities'
+import Activities from '../../pages/Admin-dashboard/Activities/Activities';
 import Cart from '../../pages/Cart/Cart';
 import NotFound from '../../pages/404/NotFound';
 import { sweet } from '../../pages/Pardakht movafagh/Secssefully_pay';
@@ -24,6 +24,7 @@ import Shop from '../../pages/Shop/Shop';
 import Coutomrtpanel from '../../pages/Customer_panel/CustomerPanel';
 import Forgetpass_code from '../../pages/Forget_password/Forget_password_codes';
 import Forgetpass from '../../pages/Forget_password/Forget_password';
+import Edit_order from '../../pages/Admin-dashboard/Activities/edit-order/edit-order';
 function App() {
   return (
     <div className="App">
@@ -77,7 +78,10 @@ function App() {
               <Admindashboard />
           </Route>
           <Route path="/Activities">
-              {/* <Activities /> */}
+              <Activities />
+          </Route>
+          <Route path="/edit_order">
+              <Edit_order />
           </Route>
           <Route exact path='/*'>
             <NotFound />

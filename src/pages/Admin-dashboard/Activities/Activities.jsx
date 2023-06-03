@@ -23,9 +23,9 @@ const Activities=()=>{
                 <button style={{padding:'15px'}} className='tab1'>جزئیات محصول</button>
                 </Link>
                 <Link to='details'>
-                <button style={{padding:'15px'}} className='tab1'>ویراِش محصول</button>
+                <button style={{padding:'15px'}} className='tab1'>ویرایش محصول</button>
                 </Link>
-                <Link to='details'>
+                <Link to='edit_order'>
                 <button style={{padding:'15px'}} className='tab1'>ویرایش سفارش</button>
                 </Link>
             </div>

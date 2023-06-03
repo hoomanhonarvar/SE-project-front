@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import "./CustomerPanel.css"
 import TrackingOrder from "./TrackingOrder";
 const Coutomrtpanel=()=>{
+    document.body.style.backgroundColor = "#0e1225";
     return(
       <dvi className="row-0" style={{padding:'20px'}}>
         <div style={{direction:'rtl'}} className="col-md-10">

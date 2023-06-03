@@ -16,6 +16,7 @@ import linig from "./lin4.jpg";
 import {Link} from 'react-router-dom'
 
 const Admindashboard2 = () => {
+  document.body.style.backgroundColor = "#0e1225";
   return (
     <div className="total">
       <div className="row">
