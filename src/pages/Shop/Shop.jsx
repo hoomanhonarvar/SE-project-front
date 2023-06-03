@@ -4,16 +4,25 @@ import { IoCartOutline } from 'react-icons/io5';
 import { IoNotificationsOutline } from 'react-icons/io5';
 import { IoSearchOutline } from 'react-icons/io5';
 import './Shop.css'
-
+import Button from "./../../Component/Button/Button"
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const Shop=()=>{
     document.body.style.backgroundColor = "white";
     return(
         <>
             <div className='Header'>
                 <div className='Icons'>
+                    <Link to ="/cart">
+                    <button style={{background:'transparent'}}>
                     <IoCartOutline className='Icon move-left'/>
+                    </button>
+                    </Link>
+                    <button style={{background:'transparent'}}>
                     <IoNotificationsOutline className='Icon'/>
+                    </button>
+                    <button style={{background:'transparent'}}>
                     <IoHeadsetOutline className='Icon'/>
+                    </button>
                     <button className='search-icon Icon'><IoSearchOutline /></button>
                     <input className="input-field" type="text"></input>
                 </div>

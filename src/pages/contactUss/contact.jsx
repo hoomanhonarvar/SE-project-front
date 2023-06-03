@@ -23,24 +23,24 @@ const Contating=()=>{
                   <div className="input-group">
                   <label htmlFor="" className="inplabel">نام و نام خانوادگی</label>        
                     <br />
-                    <input type="text" id="Name"  className="form-control form-control" />
+                    <input type="text" id="Name"  className="form-control form-control"  style={{width:'100%',direction:'rtl'}}/>
 
                     </div>
                     <div className="input-group"> 
-                    <label htmlFor="" className="inplabel">شماره تماس</label>                 
+                    <label htmlFor="" className="inplabel ">شماره تماس</label>                 
                       <br />
-                    <input type="text" id="Name"  className="form-control form-control" />
+                    <input type="text" id="Name"  className="form-control form-control" style={{width:'100%'}}/>
                   </div>
                   <div className="form-outline mb-4">
                     <div className="input-group">
-                    <label htmlFor="" className="inplabel">پیام</label>
+                    <label htmlFor="" className="inplabel" >پیام</label>
                       <br />
-                    <textarea type='text' id="texteraia" rows={5}  className="form-control form-control" />
+                    <textarea type='text' id="texteraia" rows={5}  className="form-control form-control" style={{width:'100%',direction:'rtl'}} />
 
 
                     </div>                    
                     </div>
-                  <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit">ارسال</button>
+                  <button className="btn btn-primary btn-lg btn-block loginbtn" type="submit" style={{textAlign:'center'}}>ارسال</button>
                   <div>
                     </div>
                 </div>

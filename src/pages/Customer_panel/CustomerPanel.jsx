@@ -20,9 +20,11 @@ const Coutomrtpanel=()=>{
                 <button style={{background:"none",marginRight:"35%"}} >
                        <img src={img2} alt="image" />
                 </button>
+                <Link to ='/cart'>
                 <button style={{background:"none",marginRight:"2%"}} >
                     <img src={Image01} alt="image" />
                 </button>   
+                </Link>
             </div>
 
 
@@ -38,7 +40,9 @@ const Coutomrtpanel=()=>{
             <br />
             <h5 style={{color:'white',fontSize:'32px',margin:'10px 0px'}}>مشتری</h5>
             </button>
-            <button type="button" style={{ display:'block',color:'white',fontSize:'20px',backgroundColor:'#363946',  padding:'5px 0px',width:'50%' , borderRadius:'15px'}} cxlass="btn btn-outline-dark bt">ویرایش</button>
+            <Link to ="/SignUpDetails">
+            <button type="button" style={{ display:'block',color:'white',fontSize:'20px',backgroundColor:'#363946',  padding:'5px 0px',width:'120%' , borderRadius:'15px'}} cxlass="btn btn-outline-dark bt">ویرایش</button>
+            </Link>
             </div>
             </div>
      
